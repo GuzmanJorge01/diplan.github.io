@@ -1,8 +1,6 @@
 @font-face {
     font-family: 'BemboStd';
     src: url('../font/BemboStd.otf');
-    /*src: url('../font/BemboStd-Bold.otf');
-    src: url('../font/BemboStd-SemiboldItalic.otf');*/
     
 }
 
@@ -10,15 +8,15 @@
     font-family: 'Museo Sans';
     src: url('../font/MuseoSans_500.otf');
 }
-
 header{
     color: #d9d9d9;
     background-color: #313945;
+    font-style: normal;
     font-family: 'BemboStd';
+    
 }
 footer{
     color: #d9d9d9;
     background-color: #313945;
     font-family: 'Museo Sans';
-    
 }
