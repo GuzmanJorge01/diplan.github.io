@@ -38,3 +38,46 @@ footer{
     
 }
 
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    font-weight: 400;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0  auto;
+}
+
+.nav-bg{
+    background-color: var(--color_primario);
+}
+
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px){ 
+        .navegacion-principal{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+}
+
+.navegacion-principal a{
+    display: block;
+    text-align: center;
+    color: var(--color_emblema);
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--color_segundario);
+}
+
+
+
